@@ -9,6 +9,7 @@
 
   .hero {
     max-width: 200px;
+    border-radius: 50%
   }
 
   span {
@@ -84,8 +85,9 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 250px;
+      width: 250px;
+      border-radius: 50%
     }
   }
 }
@@ -95,6 +97,7 @@
     .hero {
       max-width: 400px;
       width: 400px;
+      border-radius: 50%;
     }
   }
 }
