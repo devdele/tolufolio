@@ -24,7 +24,7 @@ function Projects() {
         
         <ProjectCard
           src={brainy}
-          link="https://dat-rose.vercel.app/"
+          link="https://schoolbrainy.vercel.app/"
           h3="Brainy"
           p="E-Learning Platform"
         />
