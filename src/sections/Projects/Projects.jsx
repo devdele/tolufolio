@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import electroFlow from '../../assets/electroflow.png';
-import foodie from '../../assets/foodie.png';
-import dat from '../../assets/dat.png';
+import electroFlow from '../../assets/electro2.png';
+import foodie from '../../assets/foodie2.png';
+import brainy from '../../assets/brainy.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -13,20 +13,20 @@ function Projects() {
           src={electroFlow}
           link="https://electroflow.vercel.app/?vercelToolbarCode=ozRyTTbwqFOd05w"
           h3="Electroflow"
-          p="Power Supply Company"
+          p="Power Company Landing Page"
         />
         <ProjectCard
           src={foodie}
           link="https://landing-react-sand.vercel.app"
           h3="Foodie"
-          p="Restaurant"
+          p="Restaurant Lading Page"
         />
         
         <ProjectCard
-          src={dat}
+          src={brainy}
           link="https://dat-rose.vercel.app/"
-          h3="Dat"
-          p="Data Analysis Company"
+          h3="Brainy"
+          p="E-Learning Platform"
         />
       </div>
     </section>
