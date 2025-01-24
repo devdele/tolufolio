@@ -8,7 +8,7 @@
   min-height: 500px;
 
   .hero {
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 50%
   }
 
@@ -85,8 +85,8 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 250px;
-      width: 250px;
+      max-width: 170px;
+      width: 170px;
       border-radius: 50%
     }
   }
@@ -95,8 +95,8 @@
 @media (width >= 1400px) {
   .container {
     .hero {
-      max-width: 400px;
-      width: 400px;
+      max-width: 300px;
+      width: 300px;
       border-radius: 50%;
     }
   }
