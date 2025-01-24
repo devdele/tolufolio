@@ -37,7 +37,7 @@ textarea {
   color: var(--form-text-color);
 }
 
-input[type='submit'] {
+a[type='submit'] {
   background-color: var(--btn-color);
   color: var(--btn-text-color);
   border: none;
@@ -49,13 +49,15 @@ input[type='submit'] {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   margin: auto;
+  cursor: pointer;
+  padding-top: 20px;
 }
 
-input[type='submit']:hover {
+a[type='submit']:hover {
   transform: scale(1.05);
 }
 
-input[type='submit']:active {
+a[type='submit']:active {
   transform: translateY(2px);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
