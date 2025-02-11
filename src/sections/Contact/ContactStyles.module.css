@@ -51,6 +51,7 @@ a[type='submit'] {
   margin: auto;
   cursor: pointer;
   padding-top: 20px;
+  text-decoration: none;
 }
 
 a[type='submit']:hover {
@@ -64,9 +65,10 @@ a[type='submit']:active {
 
 @media (width >= 800px) {
   textarea,
-  input:not([type='submit']) {
+  a:not([type='submit']) {
     width: 600px;
     font-size: 20px;
+    text-decoration: none;
   }
   form {
     gap: 40px;
