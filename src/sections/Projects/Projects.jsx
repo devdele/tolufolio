@@ -26,7 +26,7 @@ function Projects() {
           src={brainy}
           link="https://schoolbrainy.vercel.app/"
           h3="Brainy"
-          p="E-Learning Platform"
+          p="Learning Management System"
         />
       </div>
     </section>
