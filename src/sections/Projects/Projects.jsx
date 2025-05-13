@@ -1,6 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import electroFlow from '../../assets/electro2.png';
-import foodie from '../../assets/foodie2.png';
+import Truxpoint from '../../assets/trux.jpg';
 import brainy from '../../assets/brainy.png'
 import ProjectCard from '../../common/ProjectCard';
 
@@ -16,10 +16,11 @@ function Projects() {
           p="Power Company Landing Page"
         />
         <ProjectCard
-          src={foodie}
-          link="https://landing-react-sand.vercel.app"
-          h3="Foodie"
-          p="Restaurant Lading Page"
+          src={Truxpoint}
+          link="https://trux-nine.vercel.app/"
+          h3="Truxpoint"
+          p="Web3 project Landing Page"
+          
         />
         
         <ProjectCard
