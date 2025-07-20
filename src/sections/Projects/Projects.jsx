@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import electroFlow from '../../assets/electro2.png';
 import Truxpoint from '../../assets/trux.jpg';
 import brainy from '../../assets/brainy.png'
+import usmakoye from '../../assets/usmakoye.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -28,6 +29,12 @@ function Projects() {
           link="https://schoolbrainy.vercel.app/"
           h3="Brainy"
           p="Learning Management System"
+        />
+         <ProjectCard
+          src={usmakoye}
+          link="https://usmakoye-plumbing-services.vercel.app/"
+          h3="Usmakoye"
+          p="Plumbing Services"
         />
       </div>
     </section>
